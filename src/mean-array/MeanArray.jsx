@@ -20,7 +20,7 @@ const MeanArray = () => {
         return academicAverage;
     }
 
-    schoolAverage(schoolReport);
+    // schoolAverage(schoolReport);
 
 
   return (

@@ -9,6 +9,7 @@ import RemoveElement from './remove-element/RemoveElement';
 import MonkeyCount from './monkey-count/MonkeyCount';
 import ReverseSequence from './reverse-sequence/ReverseSequence';
 import MeanArray from './mean-array/MeanArray';
+import ReallyGood from './im-good/ReallyGood';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <MonkeyCount /> 
       <ReverseSequence />
       <MeanArray /> 
+      <ReallyGood /> 
 
 
     </div>
