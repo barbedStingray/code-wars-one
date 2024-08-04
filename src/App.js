@@ -4,6 +4,7 @@ import './App.css';
 import ReverseWords from './reverse-words/ReverseWords';
 import StringRepeat from './string-repeat/StringRepeat';
 import Grasshopper from './grasshopper/Grasshopper';
+import PipeProblem from './mario-bros/PipeProblem';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <ReverseWords />
       <StringRepeat /> 
       <Grasshopper /> 
+      <PipeProblem /> 
+      
 
     </div>
   );

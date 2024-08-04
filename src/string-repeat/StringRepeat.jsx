@@ -16,7 +16,7 @@ const StringRepeat = () => {
         return finalArray;
 
 
-
+        
         // non loop solution
         // let newString = Array(num).fill(str).join(' ');
         // console.log('newString', newString);
@@ -24,7 +24,7 @@ const StringRepeat = () => {
 
     }
 
-    stringRepeat('Batman', 4);
+    // stringRepeat('Batman', 4);
 
 
   return (
