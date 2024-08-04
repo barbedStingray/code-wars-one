@@ -6,6 +6,8 @@ import StringRepeat from './string-repeat/StringRepeat';
 import Grasshopper from './grasshopper/Grasshopper';
 import PipeProblem from './mario-bros/PipeProblem';
 import RemoveElement from './remove-element/RemoveElement';
+import MonkeyCount from './monkey-count/MonkeyCount';
+import ReverseSequence from './reverse-sequence/ReverseSequence';
 
 function App() {
   return (
@@ -30,7 +32,8 @@ function App() {
       <Grasshopper /> 
       <PipeProblem /> 
       <RemoveElement /> 
-      
+      <MonkeyCount /> 
+      <ReverseSequence />
 
 
     </div>
