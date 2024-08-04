@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import ReverseWords from './reverse-words/ReverseWords';
+import StringRepeat from './string-repeat/StringRepeat';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       </header>
 
       <ReverseWords />
-
+      <StringRepeat /> 
 
     </div>
   );

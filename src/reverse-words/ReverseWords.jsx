@@ -28,10 +28,11 @@ const ReverseWords = () => {
     }
 
     // reverseWords(one);
-    reverseWords(two);
-
-
-
+    // reverseWords(two);
+    // reverseWords(three);
+    // reverseWords(four);
+    // reverseWords(five);
+    // reverseWords(six);
 
 
   return (
