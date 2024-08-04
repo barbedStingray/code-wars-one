@@ -8,6 +8,7 @@ import PipeProblem from './mario-bros/PipeProblem';
 import RemoveElement from './remove-element/RemoveElement';
 import MonkeyCount from './monkey-count/MonkeyCount';
 import ReverseSequence from './reverse-sequence/ReverseSequence';
+import MeanArray from './mean-array/MeanArray';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
       <RemoveElement /> 
       <MonkeyCount /> 
       <ReverseSequence />
+      <MeanArray /> 
 
 
     </div>

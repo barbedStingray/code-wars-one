@@ -15,7 +15,7 @@ const ReverseSequence = () => {
         return newSequence;
     }
 
-    countDown(11);
+    // countDown(11);
 
 
   return (
