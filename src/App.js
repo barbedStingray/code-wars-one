@@ -3,6 +3,7 @@ import './App.css';
 
 import ReverseWords from './reverse-words/ReverseWords';
 import StringRepeat from './string-repeat/StringRepeat';
+import Grasshopper from './grasshopper/Grasshopper';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
 
       <ReverseWords />
       <StringRepeat /> 
+      <Grasshopper /> 
 
     </div>
   );
