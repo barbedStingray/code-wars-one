@@ -5,6 +5,7 @@ import ReverseWords from './reverse-words/ReverseWords';
 import StringRepeat from './string-repeat/StringRepeat';
 import Grasshopper from './grasshopper/Grasshopper';
 import PipeProblem from './mario-bros/PipeProblem';
+import RemoveElement from './remove-element/RemoveElement';
 
 function App() {
   return (
@@ -28,7 +29,9 @@ function App() {
       <StringRepeat /> 
       <Grasshopper /> 
       <PipeProblem /> 
+      <RemoveElement /> 
       
+
 
     </div>
   );

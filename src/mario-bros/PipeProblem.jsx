@@ -20,7 +20,7 @@ const PipeProblem = () => {
         return newPipes;
     }
 
-    fixPipes(brokenPipes);
+    // fixPipes(brokenPipes);
 
 
   return (
