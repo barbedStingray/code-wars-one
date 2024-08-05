@@ -30,7 +30,7 @@ const VowelRemover = () => {
 
     }
 
-    removingVowels('spider man');
+    // removingVowels('spider man');
 
 
 

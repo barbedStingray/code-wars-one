@@ -16,6 +16,7 @@ import InverseValues from './inverse-values/InverseValues';
 import AddLength from './add-length/AddLength';
 import SquareSum from './square-sum/SquareSum';
 import VowelRemover from './vowel-remover/VowelRemover';
+import ReverseOrder from './reverse-order/ReverseOrder';
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
     <AddLength />
     <SquareSum />
     <VowelRemover />
+    <ReverseOrder />
 
 
 
