@@ -17,7 +17,7 @@ const SearchDuplicates = () => {
         return multiples;
     }
 
-    findMultiples(4, 28);
+    // findMultiples(4, 28);
 
   return (
     <div>

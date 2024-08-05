@@ -12,6 +12,7 @@ import MeanArray from './mean-array/MeanArray';
 import ReallyGood from './im-good/ReallyGood';
 import FakeBinary from './fake-binary/FakeBinary';
 import SearchDuplicates from './search-duplicates/SearchDuplicates';
+import InverseValues from './inverse-values/InverseValues';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         </a>
       </header>
 
+{/* Use Loops */}
       <ReverseWords />
       <StringRepeat /> 
       <Grasshopper /> 
@@ -42,6 +44,9 @@ function App() {
       <ReallyGood /> 
       <FakeBinary />
       <SearchDuplicates /> 
+
+{/* Definitely Loops */}
+    <InverseValues /> 
 
 
 
