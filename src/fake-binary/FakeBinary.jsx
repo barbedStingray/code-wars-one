@@ -25,7 +25,7 @@ const FakeBinary = () => {
 
     }
 
-    convertBinary(numberString);
+    // convertBinary(numberString);
 
   return (
     <div>
