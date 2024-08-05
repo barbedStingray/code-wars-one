@@ -21,6 +21,7 @@ import SumPositive from './sum-positive/SumPositive';
 import SpeedCode from './speed-code/SpeedCode';
 import FootballScore from './football-score/FootballScore';
 import ReduceGrow from './reduce-grow/ReduceGrow';
+import CountSheep from './count-sheep/CountSheep';
 
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
     <SpeedCode /> 
     <FootballScore /> 
     <ReduceGrow />
+    <CountSheep /> 
 
 
 

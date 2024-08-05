@@ -16,7 +16,7 @@ const ReduceGrow = () => {
         return multiply;
     }
 
-    multiplyIntegers(intArray);
+    // multiplyIntegers(intArray);
 
 
   return (
