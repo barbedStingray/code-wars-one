@@ -16,7 +16,7 @@ const SquareSum = () => {
         return squareSum;
     }
 
-    sumSquares(sumTheseSquares);
+    // sumSquares(sumTheseSquares);
 
 
   return (
