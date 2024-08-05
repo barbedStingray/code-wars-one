@@ -16,7 +16,7 @@ const AddLength = () => {
         return lengthList;
     }
 
-    addLength(theWords);
+    // addLength(theWords);
 
   return (
     <div>

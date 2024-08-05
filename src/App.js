@@ -14,6 +14,7 @@ import FakeBinary from './fake-binary/FakeBinary';
 import SearchDuplicates from './search-duplicates/SearchDuplicates';
 import InverseValues from './inverse-values/InverseValues';
 import AddLength from './add-length/AddLength';
+import SquareSum from './square-sum/SquareSum';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
 {/* Definitely Loops */}
     <InverseValues /> 
     <AddLength />
+    <SquareSum />
 
 
 
