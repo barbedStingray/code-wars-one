@@ -18,6 +18,7 @@ import SquareSum from './square-sum/SquareSum';
 import VowelRemover from './vowel-remover/VowelRemover';
 import ReverseOrder from './reverse-order/ReverseOrder';
 import SumPositive from './sum-positive/SumPositive';
+import SpeedCode from './speed-code/SpeedCode';
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
     <VowelRemover />
     <ReverseOrder />
     <SumPositive /> 
+    <SpeedCode /> 
 
 
 

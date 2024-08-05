@@ -18,7 +18,7 @@ const SumPositive = () => {
 
     }
 
-    sumThePositives(intArray);
+    // sumThePositives(intArray);
 
   return (
     <div>
