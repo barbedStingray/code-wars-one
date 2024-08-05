@@ -17,10 +17,10 @@ const ReverseOrder = () => {
         return reverseArray;
     }
 
-    reverseOrder(forwardsNumber);
+    // reverseOrder(forwardsNumber);
 
 
-    
+
   return (
     <div>
       <h1>Back it up</h1>
