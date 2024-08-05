@@ -25,7 +25,7 @@ const FootballScore = () => {
         return teamPoints;
     }
 
-    calculateOverall(matchScores);
+    // calculateOverall(matchScores);
 
 
     return (
