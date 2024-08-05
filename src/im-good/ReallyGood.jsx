@@ -31,7 +31,7 @@ const ReallyGood = () => {
         }
     }
 
-    amIBetter(yourScore, peerScores);
+    // amIBetter(yourScore, peerScores);
 
   return (
     <div>
