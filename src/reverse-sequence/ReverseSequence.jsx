@@ -2,20 +2,20 @@ import React from 'react'
 
 const ReverseSequence = () => {
 
-    // build an array that returns num to 1
+  // build an array that returns num to 1
 
-    function countDown(num) {
-        console.log('begin countdown', num);
-        let newSequence = [];
+  function countDown(num) {
+    console.log('begin countdown', num);
+    let newSequence = [];
 
-        for (let i = num; i > 0; i--) {
-            newSequence.push(i);
-        }
-        console.log('newSequence', newSequence);
-        return newSequence;
+    for (let i = num; i > 0; i--) {
+      newSequence.push(i);
     }
+    console.log('newSequence', newSequence);
+    return newSequence;
+  }
 
-    // countDown(11);
+  // countDown(11);
 
 
   return (

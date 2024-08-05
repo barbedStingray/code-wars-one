@@ -34,11 +34,11 @@ const VowelRemover = () => {
 
 
 
-  return (
-    <div>
-      <h1>Removing the Tarnished</h1>
-    </div>
-  )
+    return (
+        <div>
+            <h1>Removing the Tarnished</h1>
+        </div>
+    )
 }
 
 export default VowelRemover

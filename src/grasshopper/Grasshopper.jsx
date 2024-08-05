@@ -1,21 +1,21 @@
 import React from 'react'
 
 const Grasshopper = () => {
-    // write a function to find the summation from 1 to num
+  // write a function to find the summation from 1 to num
 
-    function grasshopped(num) {
-        // console.log('num', num);
-        let solution = 0;
+  function grasshopped(num) {
+    // console.log('num', num);
+    let solution = 0;
 
-        for (let i = num; i > 0; i--) {
-            solution += i;
-            // console.log('solution', solution);
-        }
-        console.log('solution', solution);
-        return solution;
+    for (let i = num; i > 0; i--) {
+      solution += i;
+      // console.log('solution', solution);
     }
+    console.log('solution', solution);
+    return solution;
+  }
 
-    // grasshopped(76);
+  // grasshopped(76);
 
 
 

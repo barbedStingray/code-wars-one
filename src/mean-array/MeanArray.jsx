@@ -2,25 +2,25 @@ import React from 'react'
 
 const MeanArray = () => {
 
-    // return the mean of an array rounded down
-    const schoolReport = [90, 88, 96, 74, 91];
+  // return the mean of an array rounded down
+  const schoolReport = [90, 88, 96, 74, 91];
 
-    function schoolAverage(arr) {
-        // console.log('school Report', arr);
-        let totalScore = 0;
-        const classesTaken = arr.length;
-        
-        for (let score of arr) {
-            totalScore += score;
-        }
-        // console.log('totalScore', totalScore);
+  function schoolAverage(arr) {
+    // console.log('school Report', arr);
+    let totalScore = 0;
+    const classesTaken = arr.length;
 
-        const academicAverage = Math.floor(totalScore/classesTaken);
-        console.log('academicAverage',academicAverage);
-        return academicAverage;
+    for (let score of arr) {
+      totalScore += score;
     }
+    // console.log('totalScore', totalScore);
 
-    // schoolAverage(schoolReport);
+    const academicAverage = Math.floor(totalScore / classesTaken);
+    console.log('academicAverage', academicAverage);
+    return academicAverage;
+  }
+
+  // schoolAverage(schoolReport);
 
 
   return (

@@ -1,27 +1,27 @@
 import React from 'react'
 
 const RemoveElement = () => {
-    // remove every second element of any given array
+  // remove every second element of any given array
 
-    const elementsArray = ['coconut', 'mango', 'coconut', 'mango', 'coconut', 'mango'];
+  const elementsArray = ['coconut', 'mango', 'coconut', 'mango', 'coconut', 'mango'];
 
-    function alternateRemove(arr) {
-        console.log('remove array', arr);
-        let alternateArray = [];
-        
-        for (let i = 0; i < arr.length; i++) {
-            if (i % 2 === 0) {
-                // console.log('pushing to array', i);
-                alternateArray.push(arr[i]);
-            }
-        }
+  function alternateRemove(arr) {
+    console.log('remove array', arr);
+    let alternateArray = [];
 
-        console.log('alternateArray', alternateArray);
-        return alternateArray;
-
+    for (let i = 0; i < arr.length; i++) {
+      if (i % 2 === 0) {
+        // console.log('pushing to array', i);
+        alternateArray.push(arr[i]);
+      }
     }
 
-    // alternateRemove(elementsArray);
+    console.log('alternateArray', alternateArray);
+    return alternateArray;
+
+  }
+
+  // alternateRemove(elementsArray);
 
 
   return (

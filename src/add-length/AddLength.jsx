@@ -2,21 +2,21 @@ import React from 'react'
 
 const AddLength = () => {
 
-    const theWords = "It is within reach"
+  const theWords = "It is within reach"
 
-    function addLength(str) {
-        let lengthList = [];
-        const stringArray = str.split(' ');
+  function addLength(str) {
+    let lengthList = [];
+    const stringArray = str.split(' ');
 
-        for (let item of stringArray) {
-            const length = item.length;
-            lengthList.push(`${item} ${length}`);
-        }
-        console.log(lengthList);
-        return lengthList;
+    for (let item of stringArray) {
+      const length = item.length;
+      lengthList.push(`${item} ${length}`);
     }
+    console.log(lengthList);
+    return lengthList;
+  }
 
-    // addLength(theWords);
+  // addLength(theWords);
 
   return (
     <div>

@@ -2,23 +2,23 @@ import React from 'react'
 
 const SumPositive = () => {
 
-    const intArray = [-1, 5, -3, 2, 6, -7, 4];
+  const intArray = [-1, 5, -3, 2, 6, -7, 4];
 
-    function sumThePositives(arr) {
-        // console.log('positiveSum', arr);
-        let positiveSum = 0;
+  function sumThePositives(arr) {
+    // console.log('positiveSum', arr);
+    let positiveSum = 0;
 
-        for (let num of arr) {
-            if (num > 0) {
-                positiveSum += num;
-            }
-        }
-        console.log('positiveSum', positiveSum);
-        return positiveSum;
-
+    for (let num of arr) {
+      if (num > 0) {
+        positiveSum += num;
+      }
     }
+    console.log('positiveSum', positiveSum);
+    return positiveSum;
 
-    // sumThePositives(intArray);
+  }
+
+  // sumThePositives(intArray);
 
   return (
     <div>
