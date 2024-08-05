@@ -13,6 +13,7 @@ import ReallyGood from './im-good/ReallyGood';
 import FakeBinary from './fake-binary/FakeBinary';
 import SearchDuplicates from './search-duplicates/SearchDuplicates';
 import InverseValues from './inverse-values/InverseValues';
+import AddLength from './add-length/AddLength';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
 
 {/* Definitely Loops */}
     <InverseValues /> 
+    <AddLength />
 
 
 

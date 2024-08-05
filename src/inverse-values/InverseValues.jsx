@@ -20,7 +20,7 @@ const InverseValues = () => {
     }
 
 
-    invertValues(valueArray);
+    // invertValues(valueArray);
 
   return (
     <div>
